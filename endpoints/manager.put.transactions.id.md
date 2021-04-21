@@ -1,4 +1,4 @@
-# [PUT] /manager/transactionas
+# [PUT] /manager/transactions
 ## Description: 
 Добавляет транзакцию
 ## GET parameters:
