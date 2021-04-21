@@ -47,3 +47,4 @@
 
 ![Block scheme](/1111.png)
 
+* [Show info](manager.md) : endpoints для менеджмента программы лояльности
