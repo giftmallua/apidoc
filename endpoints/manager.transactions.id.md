@@ -20,6 +20,7 @@ none
   - `manager`: email менеджера
   - `cancelled`: отменен да(1)/нет(0)
   - `order`: заказ, на который была потрачена сумма
+  - `inactive`: true/false активность баланса для пользователя
 
 ## EXAMPLE
 #### GET /balance
@@ -40,7 +41,8 @@ none
             "sum": "460.00",
             "manager": "user@mail.com",
             "cancelled": false,
-            "order": ""
+            "order": "",
+            "inactive": false
         },
         ...
     ]
