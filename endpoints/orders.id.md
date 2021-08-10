@@ -31,6 +31,7 @@ none
     - `expireDate`: дата действия сертификата
     - `catalog`: выводится структура [entity Catalog](/endpoints/catalog.id.md), без доп полей (см [response](#Response))
     - `image`: ссылка на картинку сертификата, со всеми нужными данными
+    - `barCode`: тип штрихкода на сертификате, если он предусмотрен
 - `dictionary`: выводится структура [dictionary](/endpoints/dictionary.md), со свойствами, которые есть в теле ответа
 ## EXAMPLE
 #### GET /orders/122222
